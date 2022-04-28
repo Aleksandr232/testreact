@@ -26,7 +26,7 @@ import folder from './folder.png'
                     <div className="img">
                         <img src={folder} alt="" />
                     </div>
-                    <div className="block_opacity"></div>
+                    {/* <div className="block_opacity"></div> */}
                     <div className="textfolder">New folder</div>
                     
                 </div>
@@ -67,22 +67,17 @@ import folder from './folder.png'
                     <div className="textfolder">New folder</div>
                 </div>
                 <div className="block">
-                    <div className="block_1">
                     <div className="img">
                         <img src={folder} alt="" />
                     </div>
                     <div className="textfolder">New folder</div>
-                    </div>
                 </div>
                 <div className="block">
-                    <div className="block_1">
                     <div className="img">
                         <img src={folder} alt="" />
                     </div>
                     <div className="textfolder">New folder</div>
-                    </div>
                 </div>
-                
             </div>
         </section>
     )

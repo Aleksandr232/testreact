@@ -19,6 +19,7 @@ const apicrypt = {
  const LeftPanel=()=>{
     const [weather, setWeather] = useState({});
     const[crypt, setCrypt]=useState({});
+    
 
     window.onload = function (){
         return fetch(`${api.base}weather?q=KAZAN&units=metric&APPID=${api.key}`)
@@ -83,7 +84,7 @@ const apicrypt = {
         <div className="divider5"></div>
         <div className="fileinfo">
             <div className="text">File info</div>
-            <div className="grid_info">
+            <div className="grid_info" >
                 <div className="name">Name</div>
                 <div className="name_blue">New folder</div>
                 <div className="name">Type</div>

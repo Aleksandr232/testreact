@@ -50,14 +50,16 @@
     top: 192px;
     display: grid;
     grid-template-columns: repeat(9, 162px);
+    grid-auto-rows: 137px;
 }
 
-.block_1{
+.bag{
     position: absolute;
     top: 150px;
+    text-align: center;
 }
 
-.block_opacity{
+/* .block_opacity{
     position: absolute;
     z-index: -20;
     margin: -125px -9px;
@@ -65,4 +67,13 @@
     height: 168px;
     background: #F2F1FF;
     border-radius: 10px;
+} */
+
+.block:hover{
+    content: '';
+    background:#F2F1FF;
+    border-radius: 10px;
+    text-align: center;
+   
+    
 }
