@@ -77,3 +77,17 @@
    
     
 }
+
+.bluer{
+    margin: 9px 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 8px);
+    grid-auto-rows: 11px;
+}
+
+.recta{
+    margin: -32px 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 8px);
+    grid-auto-rows: 8px;
+}
