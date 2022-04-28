@@ -2,14 +2,17 @@ import React from "react";
 import './headers.scss'
 
 import logo from './logo.png'
+import vector from './Vector.png'
+import vector1 from './vector1.png'
+
 
  const Headers=()=>{
     return(
-        <div>
+        <section>
             <div className="btn" >
-            <button className="btn1" style={{width:'138px', height:'40px', borderRadius:'54px', background: '#6965E1', color:'#ffff'}}>UPLOAD</button>
-            <button className="btn2"style={{width:'40px', height:'40px', borderRadius:'71px'}}></button>
-            <button className="btn3" style={{width:'40px', height:'40px', borderRadius:'35px'}}></button>
+            <button className="btn1" style={{width:'138px', height:'40px', borderRadius:'54px', background: '#6965E1', color:'#ffff'}}>UPLOAD <div className="round"><div className="plus"></div><div className="plus2"></div></div></button>
+            <button className="btn2"style={{width:'40px', height:'40px', borderRadius:'71px'}}> <img className="vector1" src={vector1}></img><img className="vector2" src={vector}/></button>
+            <button className="btn3" style={{width:'40px', height:'40px', borderRadius:'71px'}}></button>
             </div>
             <div className="logo">
                 <img src={logo} alt=""/>
@@ -25,7 +28,7 @@ import logo from './logo.png'
             </div>
 
                 <div className="divider"></div>
-        </div>
+        </section>
     )
 }
 

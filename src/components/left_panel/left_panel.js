@@ -40,7 +40,7 @@ const apicrypt = {
        
      })
     return(
-    <div>
+    <section>
         <div className="leftpanel"></div>
         <div className="spisok">
             <ul >
@@ -97,7 +97,7 @@ const apicrypt = {
             </div>
         </div>
         <div className="divider6"></div>
-    </div>
+    </section>
     )
 }
 

@@ -78,3 +78,47 @@ input{
     line-height: 15px;
     color: #6965E1;
 }
+
+.round{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 102px;
+    top: 2px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    color:#6965E1
+    
+}
+.plus{
+    position: absolute;
+    width: 12px;
+    height: 0px;
+    left: 8px;
+    top: 14px;
+    border: 2px solid #6965E1;
+    transform: rotate(-180deg);
+}
+
+.plus2{
+    position: absolute;
+    width: 12px;
+    height: 0px;
+    left: 8px;
+    top: 14px;
+    border: 2px solid #6965E1;
+    transform: rotate(90deg);
+}
+
+.vector1{
+    position: absolute;
+    left: 8px;
+    top: 24px;
+}
+
+.vector2{
+    position: absolute;
+    top:13px;
+    left: 14px;
+}
+    
