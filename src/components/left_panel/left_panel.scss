@@ -1,0 +1,127 @@
+.leftpanel{
+    position: absolute;
+    width: 896px;
+    height: 0px;
+    top: 527px;
+    left: -145px;
+    border: 0.5px solid #6965E1;
+    transform: rotate(90deg);
+}
+
+.spisok{
+    position: absolute;
+    left: 50px;
+    top: 106px;
+}
+
+
+
+.spisok1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+/* 1 */
+
+color: #6965E1;
+}
+
+.spisok2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #6E5DE3;
+}
+
+.divider2{
+    position: absolute;
+    width: 293px;
+    height: 0px;
+    top: 579px;         
+    border: 0.5px solid #6965E1;
+    transform: rotate(180deg);
+}
+    
+.divider3{
+    position: absolute;
+    width: 293px;
+    height: 0px;
+    top: 626px;
+    border: 0.5px solid #6965E1;
+    transform: rotate(180deg);
+}
+
+.divider4{
+    position: absolute;
+    width: 293px;
+    height: 0px;
+    top: 681px;
+    border: 0.5px solid #6965E1;
+    transform: rotate(180deg);
+}
+
+.divider5{
+    position: absolute;
+    width: 293px;
+    height: 0px;
+    top: 736px;
+    border: 0.5px solid #6965E1;
+    transform: rotate(180deg);
+}
+
+.divider6{
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 969px;
+    border: 0.5px solid #6965E1;
+}
+
+.weather{
+    position: absolute;
+    width: 120px;
+    height: 17px;
+    left: 31px;
+    top: 594px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    /* identical to box height */
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+    color: #6E5DE3;
+    
+}
+
+.weather_main{
+    position: absolute;
+    width: 32px;
+    height: 17px;
+    left: 193px;
+    bottom:1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #6E5DE3;
+}
