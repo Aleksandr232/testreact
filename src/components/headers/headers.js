@@ -16,7 +16,7 @@ import logo from './logo.png'
             </div>
 
             <div className="input">
-                    <input  type="Disk search" />
+                    <input className="input_text" color="#6965E1" placeholder="Disk search" />
             </div>
             
             <div className="btn_icon">

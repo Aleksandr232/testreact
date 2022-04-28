@@ -1,4 +1,7 @@
 import React,{useState} from "react";
+
+import etc from './etc.png'
+import btc from './btc.png'
 import './left_panel.scss'
 
 
@@ -14,17 +17,24 @@ const apicrypt = {
 
 
  const LeftPanel=()=>{
-    const [query, setQuery] = useState('KAZAN');
     const [weather, setWeather] = useState({});
+    const[crypt, setCrypt]=useState({});
 
-    
-
-    document.addEventListener('click', function(){
+    /* document.addEventListener('click', function(){
         return fetch(`${api.base}weather?q=KAZAN&units=metric&APPID=${api.key}`)
            .then(res => res.json())
            .then(result => {
              setWeather(result);
-             setQuery('');
+             console.log(result);
+           });
+       
+     }) */
+
+     document.addEventListener('click', function(){
+        return fetch(`${apicrypt.base}&api_key${apicrypt.key}`)
+           .then(res => res.json())
+           .then(result => {
+             setCrypt(result);
              console.log(result);
            });
        
@@ -60,12 +70,31 @@ const apicrypt = {
             </div>
         <div className="divider3"></div>
             <div className="crypto">
-
+                <img className="imgcrpt" src={etc} alt="eth" />
+                <div>1 ETH = {crypt.ETH?.USD}</div>
             </div>
         <div className="divider4"></div>
+        <div className="crypto1">
+                    <img className="imgcrptbtc" src={btc} alt="btc" />
+                <div>1 BTC = {crypt.BTC?.USD}</div>
+        </div>
         <div className="divider5"></div>
         <div className="fileinfo">
-
+            <div className="text">File info</div>
+            <div className="grid_info">
+                <div className="name">Name</div>
+                <div className="name_blue">New folder</div>
+                <div className="name">Type</div>
+                <div className="name_blue">File</div>
+                <div className="name">Date of birth</div>
+                <div className="name_blue">11.01.2021</div>
+                <div className="name">Size</div>
+                <div className="name_blue">13 232 MB</div>
+                <div className="name" >Date of birth</div>
+                <div className="name_blue">11.01.2021</div>
+                <div className="name">Type</div>
+                <div className="name_blue">File</div>
+            </div>
         </div>
         <div className="divider6"></div>
     </div>
