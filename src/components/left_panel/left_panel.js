@@ -20,25 +20,27 @@ const apicrypt = {
     const [weather, setWeather] = useState({});
     const[crypt, setCrypt]=useState({});
 
-    /* document.addEventListener('click', function(){
+    window.onload = function (){
         return fetch(`${api.base}weather?q=KAZAN&units=metric&APPID=${api.key}`)
            .then(res => res.json())
            .then(result => {
              setWeather(result);
              console.log(result);
+             return fetch(`${apicrypt.base}&api_key${apicrypt.key}`)
+               .then(res => res.json())
+               .then(result => {
+                 setCrypt(result);
+                 console.log(result);
+               });
            });
+            
+           
+         
+         
        
-     }) */
-
-     document.addEventListener('click', function(){
-        return fetch(`${apicrypt.base}&api_key${apicrypt.key}`)
-           .then(res => res.json())
-           .then(result => {
-             setCrypt(result);
-             console.log(result);
-           });
-       
-     })
+     }
+      
+   
     return(
     <section>
         <div className="leftpanel"></div>
