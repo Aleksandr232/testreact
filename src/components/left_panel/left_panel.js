@@ -34,13 +34,7 @@ const apicrypt = {
                  console.log(result);
                });
            });
-            
-           
-         
-         
-       
-     }
-      
+    } //можно еще добавить setInterval или setTimeout, просто из-за этого большая нагрузка на сервера       
    
     return(
     <section>
