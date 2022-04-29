@@ -12,6 +12,7 @@
     position: absolute;
     left: 50px;
     top: 106px;
+    cursor: pointer;
 }
 
 
@@ -128,7 +129,7 @@
 
 .crypto{
     position: absolute;
-    width: 200px;
+    width: 215px;
     height: 17px;
     left: 67px;
     top: 645px;
@@ -147,21 +148,21 @@
 
 .crypto1{
     position: absolute;
-width: 171px;
-height: 17px;
-left: 71px;
-top: 700px;
+    width: 217px;
+    height: 17px;
+    left: 67px;
+    top: 700px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 17px;
-/* identical to box height */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    /* identical to box height */
 
-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
 
-color: #6E5DE3;
+    color: #6E5DE3;
 }
 
 .imgcrpt{

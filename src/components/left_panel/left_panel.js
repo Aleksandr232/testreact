@@ -74,12 +74,12 @@ const apicrypt = {
         <div className="divider3"></div>
             <div className="crypto">
                 <img className="imgcrpt" src={etc} alt="eth" />
-                <div>1 ETH = {crypt.ETH?.USD}</div>
+                <div>1 ETH = {crypt.ETH?.USD} USD</div>
             </div>
         <div className="divider4"></div>
         <div className="crypto1">
                     <img className="imgcrptbtc" src={btc} alt="btc" />
-                <div>1 BTC = {crypt.BTC?.USD}</div>
+                <div>1 BTC = {crypt.BTC?.USD} USD</div>
         </div>
         <div className="divider5"></div>
         <div className="fileinfo">

@@ -7,6 +7,7 @@
     position: absolute;
    left: 16px;
    top:16px;
+   cursor: pointer;
     
 }
 
@@ -14,11 +15,13 @@
     position: absolute;
     left: 168px;
     top:16px;
+    cursor: pointer;
 }
 .btn3{
     position: absolute;
     left: 224px;
     top:16px;
+    cursor: pointer;
 }
 
 .logo{
@@ -27,6 +30,7 @@
     height: 23px;
     left: 916px;
     top: 25px;
+    cursor: pointer;
 }
 
 input{
@@ -153,19 +157,23 @@ input{
 .icon{
     position: relative;
     right: 3px;
-    top: 2px
+    top: 2px;
+    cursor: pointer;
 }
 
 .angletop{
     position: absolute;
     left: 8px;
     top: 10px;
+    cursor: pointer;
 }
 
 .search{
     position: absolute;
     left: 1765px;
-    top:28px
+    top:28px;
+    cursor: pointer;
+    
 }
 
 .searchmin{
@@ -178,4 +186,8 @@ input{
 button{
     border-color: #FFFFFF;
     
+}
+
+input{
+    border-color:#FFFFFF;
 }
