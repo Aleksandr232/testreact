@@ -7,6 +7,8 @@ import vector1 from './vector1.png'
 import vector15 from './vector15.png'
 import vector16 from './Vector16.png'
 import vector17 from './Vector17.png'
+import elpise3 from './elpise3.png'
+import icon from './icon.png'
 
 
  const Headers=()=>{
@@ -27,8 +29,8 @@ import vector17 from './Vector17.png'
             </div>
             
             <div className="btn_icon">
-                <button className="btn_icon1"></button>
-                <button className="btn_icon2"></button>
+                <button className="btn_icon1"><img className="elpise3" src={elpise3} alt="" /></button>
+                <button className="btn_icon2"><img  className='icon' src={icon} alt="" /></button>
             </div>
 
                 <div className="divider"></div>
