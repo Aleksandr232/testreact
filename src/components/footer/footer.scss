@@ -1,0 +1,37 @@
+.text_footerleft{
+    position: absolute;
+    width: 122px;
+    height: 15px;
+    left: 24px;
+    top: 984px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #898989;
+}
+
+
+.text_footerright{
+    position: absolute;
+    width: 136px;
+    height: 15px;
+    left: 1760px;
+    top: 984px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* 1 */
+    color: #6965E1;
+
+}

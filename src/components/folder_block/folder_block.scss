@@ -91,3 +91,12 @@
     grid-template-columns: repeat(2, 8px);
     grid-auto-rows: 8px;
 }
+
+.img_right_menu{
+    position: absolute;
+    width: 48px;
+    height: 252px;
+    left: 1859px;
+    top: 92px;
+    background: url('./imagerightmenu.png') no-repeat;
+}

@@ -7,6 +7,7 @@ import bluere from './bluere.png'
 import recta from './recta.png'
 import rectan from './rectan.png'
 
+
  const FolderBlock=()=>{
     return(
         <section>
@@ -27,6 +28,7 @@ import rectan from './rectan.png'
                     <img src={rectan} alt="" />
                 </div>
             </div>
+            <div className="img_right_menu"></div>
             <div className="newfoldergrid">
                 <div className="block">
                     <div className="img">

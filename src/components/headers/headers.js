@@ -9,7 +9,9 @@ import vector16 from './Vector16.png'
 import vector17 from './Vector17.png'
 import elpise3 from './elpise3.png'
 import icon from './icon.png'
-
+import angletop from './angletop.png'
+import search from './search.png'
+import searchmin from './searchmin.png'
 
  const Headers=()=>{
     return(
@@ -26,10 +28,12 @@ import icon from './icon.png'
 
             <div className="input">
                     <input className="input_text"  placeholder="Disk search" />
+                    <img className="search" src={search} alt="" />
+                    <img className="searchmin" src={searchmin} alt="" />
             </div>
             
             <div className="btn_icon">
-                <button className="btn_icon1"><img className="elpise3" src={elpise3} alt="" /></button>
+                <button className="btn_icon1" ><img className="elpise3" src={elpise3} alt=""/><img className="angletop" src={angletop}></img></button>
                 <button className="btn_icon2"><img  className='icon' src={icon} alt="" /></button>
             </div>
 
