@@ -6,12 +6,14 @@ import folder from './folder.png'
 import bluere from './bluere.png'
 import recta from './recta.png'
 import rectan from './rectan.png'
+import top from './top.png'
 
 
  const FolderBlock=()=>{
     return(
         <section>
             <div className="sort">sort by name</div>
+            <img className="top" src={top} alt="" />
             <div className="blockmenu">
                 <div className="bluer">
                     <img className="bluere" src={bluere} alt="" />
