@@ -18,18 +18,18 @@
 
 .spisok1{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 150%;
-/* identical to box height, or 18px */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
 
-letter-spacing: 0.05em;
-text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0px 14px;
+    /* 1 */
 
-/* 1 */
-
-color: #6965E1;
+    color: #6965E1;
 }
 
 .spisok2{
@@ -223,4 +223,22 @@ color: #6E5DE3;
     letter-spacing: 0.05em;
     color: rgba(110, 93, 227, 0.7);
     
+}
+
+li{
+    list-style: none;
+    background: url('./mini.png') no-repeat;
+}
+
+.angel{
+    position: absolute;
+    list-style: none;
+    background: url('./angle.png') no-repeat;
+    left: 10px;
+}
+
+.spisok2:hover{
+    content:'';
+    transform: translateX(5px);
+    transition: 0.2 all;
 }

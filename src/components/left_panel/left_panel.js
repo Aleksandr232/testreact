@@ -47,24 +47,24 @@ const apicrypt = {
         <div className="leftpanel"></div>
         <div className="spisok">
             <ul >
-                <li><div className="spisok1">DFILE STORAGE</div></li></ul>
+                <li className="spisok2"><div className="spisok1"> DFILE STORAGE</div></li></ul>
             <ul >
-                <li><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
             <ul  >
-                <li ><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
             <ul >
-                <li ><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
             <ul >
-                <li ><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
             <ul >
-                <li ><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
             <ul >
-                <li ><div className="spisok2">New folder</div></li>
+                <li className="spisok2" ><div className="spisok2">New folder</div></li>
             </ul>
         </div>
         <div className="divider2"></div>
