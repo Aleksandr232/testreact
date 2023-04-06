@@ -5,10 +5,10 @@ import btc from './btc.png'
 import './left_panel.scss'
 
 
-const api = {
+/* const api = {
     key: "af3904bcfb9954b533100c6413793863",
     base: "https://api.openweathermap.org/data/2.5/"
-  }
+  } */
 
 const apicrypt = {
     key: "cc4bd07ace6e6e7779b201193339ecfcc2a92b18e2d3ee1e53932d78425ccfbe",
